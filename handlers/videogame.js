@@ -1,4 +1,4 @@
-const servicesVideogame = require('../services/videogames')
+const servicesVideogame = require('../services/videogame')
 
 module.exports = {
     getVideogames: async(req, res) => {

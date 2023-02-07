@@ -2,6 +2,6 @@ const express = require('express');
 const router = express.Router();
 const handlerVideogame = require('../handlers/videogame')
 
-router.get('/allVideogame', handlerVideogame.getVideogames)
+router.get('/allVideogames', handlerVideogame.getVideogames)
 
 module.exports = router
